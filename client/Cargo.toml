@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 reqwest = { version = "0.11.22", features = ["json"] } # For making HTTP requests
 tokio = { version = "1.35.0", features = ["full"] }      # For async runtime
+tokio-tungstenite = "0.21.0"                             # WebSocket support
+futures-util = "0.3.29"                                  # Utilities for streams
+url = "2.5.0"                                            # For URL parsing
